@@ -4,7 +4,8 @@
   "description": "CMS-style blog site",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,6 @@
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.15.0"
+    "sequelize": "^6.16.0"
   }
 }
