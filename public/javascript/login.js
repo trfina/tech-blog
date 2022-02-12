@@ -16,7 +16,8 @@ async function loginFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard');
+      console.log("=== login success===")
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }
@@ -24,6 +25,7 @@ async function loginFormHandler(event) {
 }
 
 async function signupFormHandler(event) {
+
   event.preventDefault();
 
   const username = document.querySelector('#username-signup').value.trim();
@@ -42,6 +44,7 @@ async function signupFormHandler(event) {
     });
 
     if (response.ok) {
+      console.log('success');
       document.location.replace('/');
     } else {
       alert(response.statusText);
