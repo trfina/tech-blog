@@ -1,6 +1,6 @@
 
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User, Post, Comment } = require('../../models');
 
 // GET /api/users
 router.get('/', (req, res) => {
@@ -98,9 +98,6 @@ router.post('/logout', (req, res) => {
     else {
         res.status(404).end();
     }
-    
-
-
 });
 
 
