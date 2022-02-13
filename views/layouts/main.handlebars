@@ -4,31 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Blog</title>
+  <title>a Tech Blog for Developers</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Tech Blog</a>
-      </h1>
-      <nav>
-        {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
+    <header class="hero">
+      <div>
+        <nav class="nav">     
+          <a class="link" href="/">Homepage</a>
+    
+          {{#if loggedIn}}
+          <a class="link" href="/dashboard">Dashboard</a>
+        
+          <button id="logout" class="btn-no-style">Logout</button>
+        
+          {{else}}
+          <a class="link" href="/login">Login</a>
+          {{/if}}
+        </nav>
+      </div>
+
+      <h1 class="title">a Tech Blog for Developers</h1>
     </header>
     <main>
-      {{!-- data will be plugged in later --}}
       {{{ body }}}
     </main>
     <footer>
-      Come back soon!
+      Thanks for visiting... come back soon!
     </footer>
   </div>
 
