@@ -1,1 +1,58 @@
-# tech-blog
+ 
+##  a Tech Blog for DevOps
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project demonstrates the use of MVC to build a CMS-style technical blog site.  
+
+The link to the deployed application is here:
+
+[Repository for this Project](https://github.com/trfina/tech-blog)
+
+![Finished Mock Up](./assets/images/prompts.png)
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Credits](#credits)
+* [License](#license)
+* [Questions](#questions)
+
+## Installation
+
+
+## Usage
+`npm start` will start the application
+
+## Contributing
+[Contributor Covenant](https://www.contributor-covenant.org/) 
+    
+    
+## Usage 
+
+
+## Credits
+
+
+## License
+- This application is covered under the following license: MIT License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Badges
+
+- Badges aren't _necessary_, but they let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). 
+
+
+## Features
+
+- If your project has a lot of features, consider adding a heading called "Features" and listing them there
+
+## Questions
+
+GitHub Username:
+  
+- [GitHub Profile](https://github.com/trfina)
+- Additional Questions?  
+Contact me at finatammy@gmail.com
+
+ This README was generated with ❤️ by Tammy Fina © 2022
