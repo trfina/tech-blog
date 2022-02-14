@@ -8,7 +8,7 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/tech-blog)
 
-![Finished Mock Up](./public/images/tech-blog-screen.png)
+![Finished Mock Up](./public/tech-blog-screen.png)
 
 ## Table of Contents
 * [Installation](#installation)
