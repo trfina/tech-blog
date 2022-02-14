@@ -7,7 +7,7 @@ This project demonstrates the use of MVC to build a CMS-style technical blog sit
 The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/tech-blog)
-
+[Heroku Location for this App](https://pure-shore-75804.herokuapp.com/)
 ![Finished Mock Up](./public/tech-blog-screen.png)
 
 ## Table of Contents
