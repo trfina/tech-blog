@@ -31,6 +31,13 @@ h6 {
   line-height: 1.25;
 }
 
+h4 {
+  font-weight: 700;
+  margin: 0;
+  color: var(--light-dark);
+  line-height: 1.25;
+}
+
 .link-color {
   color: var(--tertiary);
   padding: 10px;
@@ -114,7 +121,7 @@ button:hover {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1rem;
   background-color: var(--primary);
   color: var(--dark);
   padding: 0 10px;
@@ -155,7 +162,6 @@ button:hover {
 .icon-success {
   color: rgb(29, 153, 255);
 }
-/* CARDS */
 
 .card {
   margin: 0 0 20px 0;
@@ -172,13 +178,6 @@ button:hover {
 
 .card-body {
   padding: 1%;
-}
-
-h4 {
-  font-weight: 700;
-  margin: 0;
-  color: var(--light-dark);
-  line-height: 1.25;
 }
 
 .link {
